@@ -96,7 +96,7 @@ x1 = prompt ('🙋‍♂️Usara delivery o pickup? \n 👉Seleccione 1 para del
    
    
  alert ('👉 El primer precio bruto es: '  + p1 + ' Bs' +' \n👉 El segundo precio bruto es: ' + p2 + ' Bs' +' \n 👉 El tercer precio bruto es: ' + p3 + ' Bs' +' \n 👉 Precio total de los 3 productos con Iva es: ' + result + ' Bs' + '\n 👉 Iva establecido es de: 16%' + '\n 👉 Precio del delivery establecido es: 5💲' + '\n 👉 Total con cupon de descuento: ' + x + ' Bs' + '\n \n ✅✅ Total final facturado ✅✅: ' + x1 ) 
-
+ alwet ('👏👏GRACIAS POR SU COMPRA👏👏')
 
 
 
