@@ -13,14 +13,14 @@ else if (nro_ingresado !== 0 ) {
   // funcion para cupon
 function cup (serial) {
 if (serial == codigo)
-  x= (result) - (result*0.15) + '15% de descuento en compra'  
+  x= (result) - (result*0.15)
 else x= (result)
 }
 
 // funcion para forma de retiro en tienda
 function forma_retiro (num) {
 if (num==1) 
-  x1 = (x+130 + ' Bs. \n (Incluye costo del delivery)\n Forma de retiro en tienda: 🚚 Delivery')
+  x1 = ((x+130) + ' Bs. \n (Incluye costo del delivery)\n Forma de retiro en tienda: 🚚 Delivery')
 else if (num==2)
   x1= (x + ' Bs. \n Forma de retiro en tienda: 🏪 Pickup')
 }
